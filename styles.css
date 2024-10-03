@@ -1,0 +1,185 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#infos-personnelles {
+    width: 30%;
+    background-color: #023047;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les icônes dans la section Informations Personnelles */
+#infos-personnelles i {
+    color: #0077b6; /* Couleur des icônes */
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+    font-size: 16px; /* Taille des icônes */
+    vertical-align: middle; /* Aligner les icônes avec le texte */
+}
+
+/* Section Compétences */
+#competences {
+    margin-top: 20px;
+}
+
+#competences .categorie {
+    margin-bottom: 20px;
+}
+
+#competences h3 {
+    font-size: 18px;
+    color: #0077b6;
+    margin-bottom: 5px;
+}
+
+#competences ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#competences ul li {
+    background-color: #036666;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#competences ul li:hover {
+    background-color: #0366666e;
+}
+
+
+/* Section langues */
+#langues {
+    margin-top: 20px;
+}
+
+#langues .langue {
+    margin-bottom: 20px;
+}
+
+#langues .langue p {
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Progress bar */
+.progress-bar {
+    position: relative;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #036666b2;
+    border-radius: 10px;
+    transition: width 0.5s;
+}
+
+/* Tooltip (texte en fondu) */
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.progress-bar:hover .tooltip {
+    opacity: 1;
+}
+
+
+/* Exemple d'effet hover */
+.progress:hover {
+    background-color: #03666649;
+}
+
+/* Section centres d'intérêt */
+#centres {
+    margin-top: 20px;
+}
+
+#centres .categorie {
+    margin-bottom: 20px;
+}
+
+#centres h3 {
+    font-size: 18px;
+    color: #0077b6;
+    margin-bottom: 5px;
+}
+
+#centres ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#centres ul li {
+    background-color: #036666;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+#contenu-droite {
+    width: 65%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.experience, .etude {
+    margin-bottom: 20px;
+}
+
+.experience h3, .etude h3 {
+    color: #0077b6;
+}
+
+p {
+    margin: 5px 0;
+}
